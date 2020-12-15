@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Staff_list</class>
+ <widget class="QMainWindow" name="Staff_list">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2174</width>
+    <height>1781</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Staff List</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="bookholics.qrc">
+    <normaloff>:/image/1.png</normaloff>:/image/1.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="staff_details">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>370</y>
+      <width>801</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Borrow ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string> Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Email-Id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Gender</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string> Qualification</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Experience</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Department</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Contact No</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>50</y>
+      <width>441</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/image/logo.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="bookholics.qrc"/>
+ </resources>
+ <connections/>
+</ui>
